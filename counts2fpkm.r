@@ -115,7 +115,7 @@ counts2fpkm <- function(filename, source, symbol = FALSE, skiplines = 1, mfl_num
 
 counts2fpkm (filename = "data/counts_subread.txt", source = "subread", symbol = FALSE, skiplines = 1, mfl_num = c(415))
 
-# openxlsx::write.xlsx(x3, file = "20191031_subread.xlsx")
+# openxlsx::write.xlsx(x3,  file = "20191031_subread.xlsx")
 
 filename = "data/tumor_rna_counts_union"
 source = "htseq"
